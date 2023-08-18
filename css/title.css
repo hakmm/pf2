@@ -1,0 +1,85 @@
+#title {
+	background-image: url(../img/galaxy.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: unset;
+	background-color: #A6C2CE;
+	height: 800px;
+	position: relative;
+}
+
+#title::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#title div.wrap  {
+	position: relative;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: start;
+}
+
+#title div.wrap ul.nav {
+	position: fixed;
+	left: 42px;
+}
+
+#title div.wrap ul.nav li {
+/* 	height: 35px; */
+}
+
+#title div.wrap ul.nav li a {
+	color: #60675E;
+	font-size: 13px;
+	margin-left: 20px;
+	line-height: 2.5
+}
+
+#title div.wrap ul.nav li a:hover:before {
+	content: "";
+	border-top: 1px solid;
+	width: 12px;
+	display: inline-block;
+	vertical-align: 5px;
+}
+
+#title div.wrap ul.nav li a span {
+	margin-left: 10px;
+}
+
+#title div.wrap h2 {
+	font-size: 75px;
+	margin-bottom: 40px;
+	font-family: 'Dongle', sans-serif;
+	text-shadow: 2px 2px 5px white;
+	color: #4D5149;
+}
+
+#title div.wrap p {
+	line-height: 1.4;
+	margin-bottom: 40px;
+	color: #fff;
+}
+
+#title div.wrap>div {
+	margin-left: 200px;
+}
+
+#title div.wrap>div a {
+	color: #fff;
+	border: 1px solid;
+	border-radius: 10px;
+	width: 100px;
+	height: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

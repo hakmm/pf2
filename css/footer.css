@@ -1,0 +1,112 @@
+footer div.wrap {
+	/* width: auto; */
+}
+
+footer div.wrap .full {
+	/*! border-top: 1px solid #666; */
+	/*! border-bottom: 1px solid #666; */
+	margin-bottom: 40px;
+}
+
+footer div.wrap ul.fnb {
+	width: 1440px;
+	margin: 0 auto;
+	height: 200px;
+	position: relative;
+}
+
+footer div.wrap ul.fnb>li {
+	border-left: 1px solid #666;
+	width: calc(100% / 6);
+	box-sizing: border-box;
+}
+
+footer div.wrap ul.fnb>li:first-child {
+	width: calc(100% / 6 *2);
+}
+
+footer div.wrap ul.fnb>li:last-child {
+	position: absolute;
+	left: calc(100% / 6 *5);
+	top: 120px;
+}
+
+footer div.wrap ul.fnb>li:nth-child(5) {
+	border-right: 1px solid #666;
+}
+
+
+footer div.wrap ul.fnb>li:nth-child(6){
+	position: absolute;
+	left: calc(100% / 6 *4);
+	top: 120px;
+}
+
+footer div.wrap ul.fnb li ul.sub li a {
+	line-height: 1.8;
+	display: block;
+}
+
+footer .sns {
+  padding:25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	border-bottom: 1px solid #eee;
+}
+
+footer .sns .flex {
+  gap: 20px;
+}
+
+footer .sns .flex li a {
+  font-size: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+
+footer div.wrap ul li a {
+	font-size: 13px;
+}
+
+footer .sns .flex li:nth-child(1) a {
+	background-image: url(../img/facebook.svg);
+	
+}
+
+footer .sns .flex li:nth-child(2) a {
+	background-image: url(../img/instagram.svg);
+}
+
+footer .sns .flex li:nth-child(3) a {
+	background-image: url(../img/youtube.svg);
+}
+
+footer .link {
+	gap: 30px;
+	justify-content: start;
+}
+
+/* 주소 */
+footer div.wrap address {
+  line-height: 1.2;
+  font-style: normal;
+  font-size: 13px;
+}
+
+footer div.wrap p {
+	font-size: 13px;
+  line-height: 2;
+}
+
+footer div.wrap .wcopyright {
+	margin: 35px 0;
+}
+
+footer div.wrap .copyright {
+	line-height: 2;
+}

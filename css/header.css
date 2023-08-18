@@ -1,0 +1,89 @@
+header {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+header .logo a {
+	font-size: 0;
+}
+
+header .logo a::before {
+	content: "";
+	width: 25px;
+	height: 30px;
+	display: inline-block;
+	background-image: url(../img/samsung.ico);
+	background-size: contain;
+	background-repeat: no-repeat;
+	vertical-align: 37px;
+}
+
+header .logo a::after {
+	content: "";
+	width: 108px;
+	height: 108px;
+	display: inline-block;
+	background-image: url(../img/logo.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header a {
+	color: #fff;
+	display: block;
+	padding: 0 15px;
+}
+
+header ul {
+	display: flex;
+	/*! gap: 30px; */
+	justify-content: left;
+	padding-left: 80px;
+}
+
+header div {
+	display: flex;
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+}
+
+header .infor {
+	position: absolute;
+	right: 0;
+	top: -63px;
+}
+
+a.cart {
+	background-image: url(../img/cart.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	font-size: 0;
+	display: block;
+	width: 20px;
+	height: 20px;
+}
+
+a.user {
+	background-image: url(../img/user.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	font-size: 0;
+	display: block;
+	width: 20px;
+	height: 20px;
+}
+
+a.search {
+	background-image: url(../img/search.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	font-size: 0;
+	display: block;
+	width: 20px;
+	height: 20px;
+}
